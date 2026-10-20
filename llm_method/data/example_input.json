@@ -1,0 +1,67 @@
+[
+  {
+    "id": 0,
+    "input": "",
+    "actual_output": "Great job.",
+    "evidence_r1": 1,
+    "suggestion_r1": 0,
+    "connection_r1": 0.0,
+    "total_r1": 1,
+    "evidence_r2": 1,
+    "suggestion_r2": 0,
+    "connection_r2": 0.0,
+    "total_r2": 1
+  },
+  {
+    "id": 1,
+    "input": "",
+    "actual_output": "Nice case.",
+    "evidence_r1": 1,
+    "suggestion_r1": 0,
+    "connection_r1": 0.0,
+    "total_r1": 1,
+    "evidence_r2": 1,
+    "suggestion_r2": 0,
+    "connection_r2": 0.0,
+    "total_r2": 1
+  },
+  {
+    "id": 2,
+    "input": "",
+    "actual_output": "On the foam-model knot drill, the resident left the practice loop loose. Next time, cinch the loop until the foam edges meet, then place a second throw.",
+    "evidence_r1": 3,
+    "suggestion_r1": 1,
+    "connection_r1": 1.0,
+    "total_r1": 5,
+    "evidence_r2": 3,
+    "suggestion_r2": 1,
+    "connection_r2": 1.0,
+    "total_r2": 5
+  },
+  {
+    "id": 3,
+    "input": "",
+    "actual_output": "The resident's camera wandered off the foam target. Keep the target centered.",
+    "evidence_r1": 2,
+    "suggestion_r1": 1,
+    "connection_r1": 1.0,
+    "total_r1": 4,
+    "evidence_r2": 2,
+    "suggestion_r2": 1,
+    "connection_r2": 1.0,
+    "total_r2": 4
+  },
+  {
+    "id": 4,
+    "input": "",
+    "actual_output": "Read more about the pretend procedure.",
+    "evidence_r1": 1,
+    "suggestion_r1": 0,
+    "connection_r1": 0.0,
+    "total_r1": 1,
+    "evidence_r2": 2,
+    "suggestion_r2": 1,
+    "connection_r2": 0.0,
+    "total_r2": 3
+  }
+]

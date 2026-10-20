@@ -1,0 +1,5 @@
+variant,evidence_N,evidence_accuracy,evidence_precision,evidence_recall,evidence_f1,suggestion_N,suggestion_accuracy,suggestion_precision,suggestion_recall,suggestion_f1,connection_N,connection_accuracy,connection_precision,connection_recall,connection_f1
+r1,1209,0.3482,0.9515,0.2476,0.3929,1209,0.8668,0.8659,0.6584,0.7480,1209,0.8660,0.5282,0.8427,0.6494
+r2,1209,0.3615,0.9366,0.2495,0.3940,1209,0.8503,0.8696,0.6234,0.7262,1209,0.8404,0.3944,0.8421,0.5372
+both,2418,0.3548,0.9440,0.2485,0.3935,2418,0.8586,0.8678,0.6404,0.7369,2418,0.8532,0.4613,0.8424,0.5961
+consensus,748,0.3409,0.9353,0.2117,0.3453,748,0.8917,0.8993,0.6510,0.7553,748,0.9024,0.5594,0.8889,0.6867

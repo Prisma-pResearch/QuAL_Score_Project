@@ -1,0 +1,5 @@
+variant,evidence_bin_N,evidence_bin_accuracy,evidence_bin_precision,evidence_bin_recall,evidence_bin_f1,evidence_ord_N,evidence_ord_accuracy,evidence_ord_precision,evidence_ord_recall,evidence_ord_f1,evidence_ord_precision_macro,evidence_ord_recall_macro,evidence_ord_f1_macro,suggestion_N,suggestion_accuracy,suggestion_precision,suggestion_recall,suggestion_f1,connection_N,connection_accuracy,connection_precision,connection_recall,connection_f1
+r1,1209,0.7287,0.9558,0.7146,0.8178,1209,0.4334,0.6333,0.4334,0.4760,0.3793,0.5621,0.3284,1209,0.9264,0.8663,0.8926,0.8792,1209,0.8644,0.5248,0.8315,0.6435
+r2,1209,0.7370,0.9468,0.7247,0.8209,1209,0.4665,0.6124,0.4665,0.5005,0.3986,0.4986,0.3590,1209,0.9082,0.8663,0.8416,0.8538,1209,0.8453,0.4043,0.8571,0.5494
+both,2418,0.7328,0.9513,0.7195,0.8194,2418,0.4500,0.6218,0.4500,0.4880,0.3890,0.5140,0.3438,2418,0.9173,0.8663,0.8663,0.8663,2418,0.8548,0.4645,0.8424,0.5989
+consensus,748,0.7553,0.9634,0.7296,0.8304,748,0.4519,0.6541,0.4519,0.4996,0.3991,0.5694,0.3479,748,0.9505,0.8934,0.9167,0.9049,748,0.9051,0.5664,0.9000,0.6953

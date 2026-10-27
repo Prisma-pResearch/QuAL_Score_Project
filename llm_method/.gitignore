@@ -1,0 +1,6 @@
+.env
+.venv/
+# Run outputs are ignored by runs/.gitignore so that file can stay tracked.
+.deepeval/
+__pycache__/
+*.pyc

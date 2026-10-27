@@ -1,0 +1,74 @@
+# Settings for the gpt-oss-120b runs behind the QuAL LLM results.
+# Point --input at the held-out test JSON (1,209 comments). It is not in this folder.
+# seed is the bootstrap base for that run. Each variant and metric uses
+# seed + variant_index * 1000 + metric_index. These values match the
+# published intervals.
+#
+# Default server: local vLLM from scripts/serve_vllm.sh.
+# The client reads LLM_BASE_URL and LLM_API_KEY. Unset, those are
+# http://127.0.0.1:8000/v1 and the key "dummy". max_tokens below is the
+# completion cap, 2048.
+#
+# The four main 2x2 runs (criteria_ordinal, criteria_binary, steps_ordinal,
+# steps_binary) were produced via a hosted OpenAI-compatible gateway. The
+# temperature ablation and the in-context run used self-hosted vLLM.
+# Commands from this file call the local server.
+
+defaults:
+  test_split: test
+  max_concurrent: 100
+  throttle_seconds: 0
+  max_retries: 10
+  retry_sleep_seconds: 60
+  task_timeout_seconds: 600
+  max_tokens: 2048
+
+runs:
+  - id: criteria_ordinal
+    prompt: criteria_only_ordinal
+    temperature: 0.0
+    bin_evidence: false
+    seed: 42
+
+  - id: criteria_binary
+    prompt: criteria_only_binary
+    temperature: 0.0
+    bin_evidence: true
+    seed: 10042
+
+  - id: steps_ordinal
+    prompt: eval_steps_ordinal
+    temperature: 0.0
+    bin_evidence: false
+    seed: 20042
+
+  - id: steps_binary
+    prompt: eval_steps_binary
+    temperature: 0.0
+    bin_evidence: true
+    seed: 30042
+
+  - id: temp_0_0
+    prompt: eval_steps_combo
+    temperature: 0.0
+    bin_evidence: false
+    seed: 40042
+
+  - id: temp_0_5
+    prompt: eval_steps_combo
+    temperature: 0.5
+    bin_evidence: false
+    seed: 50042
+
+  - id: temp_1_0
+    prompt: eval_steps_combo
+    temperature: 1.0
+    bin_evidence: false
+    seed: 60042
+
+  - id: in_context_steps
+    prompt: in_context_binary
+    temperature: 0.0
+    bin_evidence: true
+    examples_required: true
+    seed: 42

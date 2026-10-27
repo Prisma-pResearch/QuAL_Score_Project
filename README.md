@@ -83,6 +83,7 @@ The source workbook is not overwritten. Existing worksheets and workbook formatt
 2. Confirm that the binary and ordinal checkpoint paths are correct.
 3. Run the inference notebook.
 4. Review the generated `_QUAL_scored.xlsx` file.
+   
 Use the locked checkpoints for future inference runs. Retraining is not required when scoring new feedback files.
 
 ## Summary

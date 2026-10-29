@@ -11,13 +11,13 @@ Models tested:
 Data: 1509 feedback comments that were rated by two domain experts. Each comment was scored using the original QuAL score, a 0-5 point scale rating system based on the summation of a score of evidence (0-3 points), suggestion (0-1 point), and connection (0-1 point). If the total QuAL scores showed a difference of more than 1 point between the two raters, that comment was then scored by a third rater. We also piloted a modified rubric (mQuAL) that assigned 1 point per domain on a 3-point scale.
 
 ## Results 
-**Overall interrater reliability was high (κ = 0.85), although raters disagreed on 27.8% of QuAL evidence scores. 
+- Overall interrater reliability was high (κ = 0.85), although raters disagreed on 27.8% of QuAL evidence scores. 
 
-**Binary evidence scoring with mQuAL reduced disagreement to 8.5%. 
+- Binary evidence scoring with mQuAL reduced disagreement to 8.5%. 
 
-**Encoder and generative models achieved similar accuracy for suggestion (0.96 versus 0.94) and connection (0.95 vs 0.91), whereas the encoder outperformed the generative model for evidence (0.93 vs 0.77). 
+- Encoder and generative models achieved similar accuracy for suggestion (0.96 versus 0.94) and connection (0.95 vs 0.91), whereas the encoder outperformed the generative model for evidence (0.93 vs 0.77). 
 
-**Human rater agreement and model performance were both strongest with the mQuAL rubric that assigns 1 point per domain on a 3 point scale
+- Human rater agreement and model performance were both strongest with the mQuAL rubric that assigns 1 point per domain on a 3 point scale
 
 ## Repository Structure
 ```text

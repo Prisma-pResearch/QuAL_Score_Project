@@ -91,6 +91,7 @@ Fine-tuned models reproduced expert assessments of surgical narrative feedback w
 
 ## Maintainers and Contributors
 - Die Hu (hudier1007)
+- Michael Kabbash (kabbashm)
 - Sasank Desaraju (sasank-desaraju)
 - Victoria Nolan (victorianolan8)
 - Tyler Loftus (tjloftus)
